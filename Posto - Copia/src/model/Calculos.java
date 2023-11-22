@@ -1,5 +1,7 @@
 package model;
 
+
+
 public class Calculos {
 	public float D,C,A,E,L500,v1L,A500ml,Quanti1l,b500,tud1litro,CombustivelTotal,Totaloleo;
 	public String TV;

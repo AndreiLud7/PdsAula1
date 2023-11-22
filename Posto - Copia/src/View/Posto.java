@@ -271,7 +271,7 @@ public class Posto extends JFrame {
 		textQL1000.addFocusListener(new FocusAdapter() {
 			@Override
 			public void focusLost(FocusEvent e) {
-				A.q1L=Float.valueOf(textQL1000.getText());
+				A.Quanti1l=Float.valueOf(textQL1000.getText());
 				lblvalorbaixo.setText("R$ "+A.c1L());
 				totaloleo.setText("R$ "+A.totalOleo());
 			}
@@ -372,7 +372,7 @@ public class Posto extends JFrame {
 			new RowSpec[] {
 				RowSpec.decode("43px"),}));
 		
-		JLabel lblNewLabel_15 = new JLabel("D:");
+		JLabel lblNewLabel_15 = new JLabel("R - ");
 		lblNewLabel_15.setHorizontalAlignment(SwingConstants.RIGHT);
 		panel_17.add(lblNewLabel_15, "2, 1");
 		lblNewLabel_15.setVerticalAlignment(SwingConstants.BOTTOM);
